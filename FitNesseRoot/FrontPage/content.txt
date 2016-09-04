@@ -1,0 +1,4 @@
+!1 My Fitnesse Sandbox
+!3 ''A place to doss around, trying out Fitnesse''
+
+|[[Should I buy milk?][.FrontPage.ShouldIBuyMilk]]             |''Should I buy milk test suite'' |

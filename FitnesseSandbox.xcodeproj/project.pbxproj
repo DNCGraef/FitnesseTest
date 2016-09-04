@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6DA84C85DE4EDD50E40A3FB /* libPods-AcceptanceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C160A4B2BDE1869B8CB129 /* libPods-AcceptanceTests.a */; };
 		F8A00B541D7B1D66005043D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A00B531D7B1D66005043D6 /* AppDelegate.swift */; };
 		F8A00B561D7B1D66005043D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A00B551D7B1D66005043D6 /* ViewController.swift */; };
 		F8A00B591D7B1D66005043D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A00B571D7B1D66005043D6 /* Main.storyboard */; };
 		F8A00B5B1D7B1D66005043D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A00B5A1D7B1D66005043D6 /* Assets.xcassets */; };
 		F8A00B5E1D7B1D66005043D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A00B5C1D7B1D66005043D6 /* LaunchScreen.storyboard */; };
 		F8A00B691D7B1D66005043D6 /* FitnesseSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A00B681D7B1D66005043D6 /* FitnesseSandboxTests.swift */; };
+		F8A00B7C1D7B1DF0005043D6 /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A00B7B1D7B1DF0005043D6 /* AcceptanceTests.m */; };
+		F8A00B7F1D7B1DF0005043D6 /* FixtureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A00B7E1D7B1DF0005043D6 /* FixtureExample.swift */; };
+		F8ACC61D1D7C708600655591 /* ShouldIBuyMilk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ACC61C1D7C708600655591 /* ShouldIBuyMilk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34C160A4B2BDE1869B8CB129 /* libPods-AcceptanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AcceptanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD5EAB7A599748EC27D2EB5 /* Pods-AcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		D197249E7C874217C25B5C78 /* Pods-AcceptanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8A00B501D7B1D66005043D6 /* FitnesseSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnesseSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A00B531D7B1D66005043D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8A00B551D7B1D66005043D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,13 @@
 		F8A00B641D7B1D66005043D6 /* FitnesseSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnesseSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A00B681D7B1D66005043D6 /* FitnesseSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnesseSandboxTests.swift; sourceTree = "<group>"; };
 		F8A00B6A1D7B1D66005043D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A00B781D7B1DF0005043D6 /* AcceptanceTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceptanceTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A00B7B1D7B1DF0005043D6 /* AcceptanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcceptanceTests.m; sourceTree = "<group>"; };
+		F8A00B7E1D7B1DF0005043D6 /* FixtureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureExample.swift; sourceTree = "<group>"; };
+		F8A00B801D7B1DF0005043D6 /* SlimTables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlimTables.h; sourceTree = "<group>"; };
+		F8A00B811D7B1DF0005043D6 /* AcceptanceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcceptanceTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		F8A00B821D7B1DF0005043D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8ACC61C1D7C708600655591 /* ShouldIBuyMilk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShouldIBuyMilk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,15 +67,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8A00B741D7B1DF0005043D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DA84C85DE4EDD50E40A3FB /* libPods-AcceptanceTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69985D8D018E4FC858C76E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34C160A4B2BDE1869B8CB129 /* libPods-AcceptanceTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C594B5DF0E76021B8885C405 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D197249E7C874217C25B5C78 /* Pods-AcceptanceTests.debug.xcconfig */,
+				5AD5EAB7A599748EC27D2EB5 /* Pods-AcceptanceTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F8A00B471D7B1D66005043D6 = {
 			isa = PBXGroup;
 			children = (
 				F8A00B521D7B1D66005043D6 /* FitnesseSandbox */,
 				F8A00B671D7B1D66005043D6 /* FitnesseSandboxTests */,
+				F8A00B791D7B1DF0005043D6 /* AcceptanceTests */,
 				F8A00B511D7B1D66005043D6 /* Products */,
+				C594B5DF0E76021B8885C405 /* Pods */,
+				69985D8D018E4FC858C76E10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +112,7 @@
 			children = (
 				F8A00B501D7B1D66005043D6 /* FitnesseSandbox.app */,
 				F8A00B641D7B1D66005043D6 /* FitnesseSandboxTests.xctest */,
+				F8A00B781D7B1DF0005043D6 /* AcceptanceTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +137,35 @@
 				F8A00B6A1D7B1D66005043D6 /* Info.plist */,
 			);
 			path = FitnesseSandboxTests;
+			sourceTree = "<group>";
+		};
+		F8A00B791D7B1DF0005043D6 /* AcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8A00B821D7B1DF0005043D6 /* Info.plist */,
+				F8A00B7D1D7B1DF0005043D6 /* Fixtures */,
+				F8A00B7A1D7B1DF0005043D6 /* Supporting Files */,
+			);
+			path = AcceptanceTests;
+			sourceTree = "<group>";
+		};
+		F8A00B7A1D7B1DF0005043D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A00B7B1D7B1DF0005043D6 /* AcceptanceTests.m */,
+				F8A00B801D7B1DF0005043D6 /* SlimTables.h */,
+				F8A00B811D7B1DF0005043D6 /* AcceptanceTests-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8A00B7D1D7B1DF0005043D6 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				F8ACC61C1D7C708600655591 /* ShouldIBuyMilk.swift */,
+				F8A00B7E1D7B1DF0005043D6 /* FixtureExample.swift */,
+			);
+			name = Fixtures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +206,27 @@
 			productReference = F8A00B641D7B1D66005043D6 /* FitnesseSandboxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F8A00B771D7B1DF0005043D6 /* AcceptanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A00B831D7B1DF0005043D6 /* Build configuration list for PBXNativeTarget "AcceptanceTests" */;
+			buildPhases = (
+				EACBC628217F14D3165F8888 /* [CP] Check Pods Manifest.lock */,
+				F8A00B731D7B1DF0005043D6 /* Sources */,
+				F8A00B741D7B1DF0005043D6 /* Frameworks */,
+				F8A00B751D7B1DF0005043D6 /* Resources */,
+				F8A00B761D7B1DF0005043D6 /* ShellScript */,
+				86B3A0229C6A1CD436C12636 /* [CP] Embed Pods Frameworks */,
+				BA37668FA4A98D2B7DBC4C89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcceptanceTests;
+			productName = AcceptanceTests;
+			productReference = F8A00B781D7B1DF0005043D6 /* AcceptanceTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +243,9 @@
 					F8A00B631D7B1D66005043D6 = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = F8A00B4F1D7B1D66005043D6;
+					};
+					F8A00B771D7B1DF0005043D6 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -168,6 +264,7 @@
 			targets = (
 				F8A00B4F1D7B1D66005043D6 /* FitnesseSandbox */,
 				F8A00B631D7B1D66005043D6 /* FitnesseSandboxTests */,
+				F8A00B771D7B1DF0005043D6 /* AcceptanceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -190,7 +287,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8A00B751D7B1DF0005043D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86B3A0229C6A1CD436C12636 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA37668FA4A98D2B7DBC4C89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACBC628217F14D3165F8888 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A00B761D7B1DF0005043D6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Validate Project Build Settings\nif [ -z \"${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}\" ]; then\n   echo \"Missing expected OCSlimProject build settings. Running '$ pod update' may fix this problem\"\n   exit 1\nfi\n\n# Export Build Environment to Bundle Location\nENV_TARGET=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/env.sh\n\nfunction exportTestRunnerEnv {\n    mkdir -p \"$(dirname \"$ENV_TARGET\")\" && touch \"$ENV_TARGET\"\n    export | egrep '(INSTALL_DIR)|(PRODUCT_NAME)|(TARGET_BUILD_DIR)|(EXECUTABLE_FOLDER_PATH)|(DEPLOYMENT_TARGET_SUGGESTED_VALUES)|(EXECUTABLE_PATH)' > $ENV_TARGET\n}\n\n# Write Test Runner Script To Project Root\nTESTRUNNER_SOURCE=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/RunTestsTargetWithSlimPort\nTESTRUNNER_TARGET=${PROJECT_DIR}/OCSlimProjectTestRunner.sh\n\nfunction writeTestRunnerScript {\n    \n    if [ -f \"$TESTRUNNER_TARGET\" ]; then\n        rm $TESTRUNNER_TARGET\n    fi\n    \n    echo '#!/bin/sh' > $TESTRUNNER_TARGET\n    echo $TESTRUNNER_SOURCE '$1' >> $TESTRUNNER_TARGET\n    chmod +x $TESTRUNNER_TARGET\n    \n}\n\n# Symbolic Link LaunchFitnesse to Project Root\nLAUNCHFITNESSE_SCRIPTNAME=LaunchFitnesse\nLAUNCHFITNESSE_SOURCE=${OCSLIMPROJECT_BUNDLE_RESOURCES_DIR}/$LAUNCHFITNESSE_SCRIPTNAME\nLAUNCHFITNESSE_TARGET=${PROJECT_DIR}/$LAUNCHFITNESSE_SCRIPTNAME\n\nfunction linkFitnesseScript {\n    \n    if [ -L $LAUNCHFITNESSE_TARGET ]; then\n        unlink $LAUNCHFITNESSE_TARGET\n    fi\n    \n    ln -s $LAUNCHFITNESSE_SOURCE $(dirname \"$LAUNCHFITNESSE_TARGET\")\n}\n\n\n###\n\nexportTestRunnerEnv\nwriteTestRunnerScript\nlinkFitnesseScript";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8A00B4C1D7B1D66005043D6 /* Sources */ = {
@@ -207,6 +372,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8A00B691D7B1D66005043D6 /* FitnesseSandboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A00B731D7B1DF0005043D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A00B7F1D7B1DF0005043D6 /* FixtureExample.swift in Sources */,
+				F8A00B7C1D7B1DF0005043D6 /* AcceptanceTests.m in Sources */,
+				F8ACC61D1D7C708600655591 /* ShouldIBuyMilk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +530,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dangraef.FitnesseSandboxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnesseSandbox.app/FitnesseSandbox";
 			};
 			name = Debug;
 		};
@@ -367,7 +541,30 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dangraef.FitnesseSandboxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnesseSandbox.app/FitnesseSandbox";
+			};
+			name = Release;
+		};
+		F8A00B841D7B1DF0005043D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D197249E7C874217C25B5C78 /* Pods-AcceptanceTests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dangraef.AcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AcceptanceTests/AcceptanceTests-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F8A00B851D7B1DF0005043D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD5EAB7A599748EC27D2EB5 /* Pods-AcceptanceTests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dangraef.AcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AcceptanceTests/AcceptanceTests-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -390,6 +587,7 @@
 				F8A00B6F1D7B1D66005043D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8A00B701D7B1D66005043D6 /* Build configuration list for PBXNativeTarget "FitnesseSandboxTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +596,16 @@
 				F8A00B721D7B1D66005043D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A00B831D7B1DF0005043D6 /* Build configuration list for PBXNativeTarget "AcceptanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A00B841D7B1DF0005043D6 /* Debug */,
+				F8A00B851D7B1DF0005043D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
